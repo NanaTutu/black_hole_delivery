@@ -32,6 +32,8 @@ dependencies:
   liquid_swipe:
   google_fonts:
   page_view_indicators:
+  font_awesome_flutter:
+  persistent_bottom_nav_bar: 
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -67,6 +69,13 @@ flutter:
     - assets/images/onboardThree.png
     - assets/images/googleIcon.png
     - assets/images/facebookIcon.png
+    - assets/images/mapPin.png
+    - assets/images/filter.png
+    - assets/images/conradRestaurant.png
+    - assets/images/ratingStar.png
+    - assets/images/skRestro.png
+    - assets/images/blackFish.png
+    - assets/images/goichiOniko.png
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

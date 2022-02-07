@@ -1,4 +1,5 @@
 import 'package:black_hole_delivery/screens/home_page.dart';
+import 'package:black_hole_delivery/screens/restaurant_page.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -178,7 +179,10 @@ class _SignUpState extends State<SignUp> {
                                     InkWell(
                                       onTap: (){
                                         Navigator.push(
-                                            context, MaterialPageRoute(builder: (context) => const Homepage()));
+                                            context, MaterialPageRoute(
+                                              builder: (context) =>const RestaurantPage() //const Homepage()
+                                            )
+                                        );
                                       },
                                       child: Container(
                                         width: MediaQuery.of(context).size.width*0.8,
