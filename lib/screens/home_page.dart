@@ -370,7 +370,7 @@ class _HomepageState extends State<Homepage> {
                                                           child: Column(
                                                             crossAxisAlignment: CrossAxisAlignment.start,
                                                             children: [
-                                                              Text("SK Restro", style: GoogleFonts.poppins(
+                                                              Text("Black Fish", style: GoogleFonts.poppins(
                                                                   fontSize: 20,
                                                                   fontWeight: FontWeight.w500,
                                                                   color: const Color.fromRGBO(24, 23, 43, 1)
