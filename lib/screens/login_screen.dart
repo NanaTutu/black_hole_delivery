@@ -1,4 +1,6 @@
+import 'package:black_hole_delivery/screens/cart_page.dart';
 import 'package:black_hole_delivery/screens/home_page.dart';
+import 'package:black_hole_delivery/screens/menu_page.dart';
 import 'package:black_hole_delivery/screens/restaurant_page.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -180,7 +182,7 @@ class _SignUpState extends State<SignUp> {
                                       onTap: (){
                                         Navigator.push(
                                             context, MaterialPageRoute(
-                                              builder: (context) =>const RestaurantPage() //const Homepage()
+                                              builder: (context) =>const CartPage()//MenuPage()//RestaurantPage() //const Homepage()
                                             )
                                         );
                                       },

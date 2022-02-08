@@ -33,7 +33,7 @@ dependencies:
   google_fonts:
   page_view_indicators:
   font_awesome_flutter:
-  persistent_bottom_nav_bar: 
+  persistent_bottom_nav_bar:
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -76,6 +76,16 @@ flutter:
     - assets/images/skRestro.png
     - assets/images/blackFish.png
     - assets/images/goichiOniko.png
+    - assets/images/ConradImages/add.png
+    - assets/images/ConradImages/backButtonIcon.png
+    - assets/images/ConradImages/shareIcon.png
+    - assets/images/ConradImages/conradMargherita.png
+    - assets/images/ConradImages/conradRestaurantBanner.png
+    - assets/images/ConradImages/conradVegLoaded.png
+    - assets/images/ConradImages/favoriteIcon.png
+    - assets/images/ConradImages/conradFarmHouse.png
+    - assets/images/ConradImages/conradFreshVeggie.png
+    - assets/images/ConradImages/conradTomato.png
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
